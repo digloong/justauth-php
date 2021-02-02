@@ -1,0 +1,31 @@
+{
+  "name": "loong/justauth-php",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "admin",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4",
+    "symfony/http-foundation": "^5.0",
+    "guzzlehttp/guzzle": "~6.0|~7.0",
+    "ext-json": "*",
+    "symfony/psr-http-message-bridge": "^2.0",
+    "ext-openssl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "JustAuth\\": "src/"
+    },
+    "files": []
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "JustAuth\\Tests\\": "tests/"
+    }
+  }
+}
